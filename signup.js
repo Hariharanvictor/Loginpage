@@ -33,10 +33,7 @@ function validation(){
             document.getElementById('passs').innerHTML="Enter atleast one special character";
             return false;
         }
-        //if(pass==" "){
-        //    document.getElementById('passs').innerHTML="**Please don't enter space**";
-        //    return false;
-        //}
+        
         if (/\s/.test(pass)){
             document.getElementById("passs").style.display="block";
             document.getElementById('passs').innerHTML="There should not space";
